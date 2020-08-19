@@ -1,14 +1,16 @@
-# no-track
-This project is a super simple browser extension to copy links from Facebook or Messenger without trackers.
+# 🗺️ no-track
+Simple browser extension for copying links without trackers.
 
-## How to use
-The extension is not currently available in Chrome Web Store nor Firefox Add-Ons.
+#### Currently supported websites:
+- facebook.com
+- messenger.com
+- instagram.com
+- google.com
+- youtube.com
 
-### Chromium based browsers  
-1. Clone the repository.
-2. Toggle the <i>Developer mode</i> on.
-3. Load the unpacked extension.
+#### Installation
+The extension is available in [Firefox Browser Add-Ons](https://addons.mozilla.org/pl/firefox/addon/no-track-override-copied-links/).
 
-## Contributions are welcome!
-If you have an idea for an improvement, feel free to contribute.
-Happy coding!
+#### Contributions
+
+The best way to contribute to this project is adding more supported websites. To do so, clone the repository, edit the `websites` object in the `script.js` file, and open a pull request. You can use the [Automatic Regex Generator](http://regex.inginf.units.it/) to find the right patterns more easily.

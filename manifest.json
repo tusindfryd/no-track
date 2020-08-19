@@ -1,12 +1,13 @@
 {
   "name": "No track",
-  "version": "1.0.0.0",
+  "version": "2.0.0.0",
   "manifest_version": 2,
-  "description": "Copy links from Facebook or Messenger without trackers.",
+  "description": "Copy links without trackers.",
   "permissions": [
     "contextMenus",
     "clipboardWrite",
-    "activeTab"
+    "activeTab",
+    "tabs"
   ],
   "background": {
     "scripts": [
@@ -14,8 +15,8 @@
     ]
   },
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "small.png",
+    "48": "medium.png",
+    "128": "big.png"
   }
 }
