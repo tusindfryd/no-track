@@ -22,13 +22,7 @@ let decoding = (link) => {
     }
 
     strippedURL = decodeURIComponent(strippedURL);
-
-    let input = document.createElement("textarea");
-    document.body.appendChild(input);
-    input.value = strippedURL;
-    input.select();
-    document.execCommand("copy");
-    document.body.removeChild(input);
+    navigator.clipboard.writeText(strippedURL);
   });
 }
 
