@@ -1,5 +1,5 @@
-# 🗺️ no-track
-Simple browser extension for copying links without trackers.
+# 👀 no-track
+Simple browser extension for copying links without trackers for Google Chrome and Mozilla Firefox.
 
 #### Currently supported websites:
 - facebook.com
@@ -10,6 +10,7 @@ Simple browser extension for copying links without trackers.
 
 #### Installation
 The extension is available in [Firefox Browser Add-Ons](https://addons.mozilla.org/pl/firefox/addon/no-track-override-copied-links/).
+It's not available in Chrome Web Store, but you can get the release in the [release section](https://github.com/tusindfryd/no-track/releases) and install it manually.
 
 #### Contributions
 

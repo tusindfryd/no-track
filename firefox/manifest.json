@@ -1,0 +1,20 @@
+{
+  "name": "No track",
+  "version": "3.0.0.0",
+  "manifest_version": 2,
+  "description": "Copy links without trackers.",
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite"
+  ],
+  "background": {
+    "scripts": [
+      "script.js"
+    ]
+  },
+  "icons": {
+    "16": "small.png",
+    "48": "medium.png",
+    "128": "big.png"
+  }
+}

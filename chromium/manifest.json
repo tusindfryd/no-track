@@ -1,13 +1,11 @@
 {
   "name": "No track",
-  "version": "2.0.0.0",
+  "version": "1.0.0.0",
   "manifest_version": 2,
   "description": "Copy links without trackers.",
   "permissions": [
     "contextMenus",
-    "clipboardWrite",
-    "activeTab",
-    "tabs"
+    "activeTab"
   ],
   "background": {
     "scripts": [
